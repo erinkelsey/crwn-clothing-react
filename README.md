@@ -1,6 +1,6 @@
 # CRWN Clothing
 
-Fully functional E-commerce clothing site built using React and Stripe
+Fully functional E-commerce clothing site built using React, SASS and Stripe
 
 ## Setup
 
