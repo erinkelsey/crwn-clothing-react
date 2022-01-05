@@ -18,7 +18,7 @@ Fully functional E-commerce clothing site built using React, Stripe and common R
 
 Website: https://firebase.google.com
 
-#### Project
+#### PROJECT
 
 1. Go to Console
 2. Click on Add Project
@@ -29,20 +29,7 @@ Website: https://firebase.google.com
    - Click on Register app
    - Copy the firebaseConfig variable, with all of its contents
 
-#### Authentication
-
-##### Google OAUTH
-
-1. Under the Develop header on the Sidebar, click on Authentication
-2. Click on the Get Started button
-3. Go to the Sign-in method tab
-4. Click on Google, and select to enable, and click Save
-
-##### Email and Password
-
-#### Database
-
-### Firebase Config
+#### CONFIG IN APP
 
 Create a file in the src/firebase folder called firebase.config.js, and add your config to it. For example:
 
@@ -59,6 +46,19 @@ Create a file in the src/firebase folder called firebase.config.js, and add your
     export default FIREBASE_CONFIG;
 
 NOTE: the variable MUST be named FIREBASE_CONFIG, as that is what the setup in src/firebase/firebase.utils.js is looking for.
+
+#### AUTHENTICATION
+
+##### Google OAUTH
+
+1. Under the Develop header on the Sidebar, click on Authentication
+2. Click on the Get Started button
+3. Go to the Sign-in method tab
+4. Click on Google, and select to enable, and click Save
+
+##### Email and Password
+
+#### DATABASE
 
 ## Run
 
