@@ -1,12 +1,13 @@
 # CRWN Clothing
 
-Fully functional E-commerce clothing site built using React, Stripe and common React packages
+Fully functional E-commerce clothing site built using React, Redux, Stripe and common React packages
 
 ### React Packages
 
 - node-sass
 - react-router-dom - v5.2.0
 - firebase
+-
 
 ## Setup
 
@@ -132,3 +133,28 @@ collectionRef returns a **querySnapshot** object
 Object that can be used to check if a document exists at this query using the **.exist** property, which returns a boolean.
 
 Can also be used to get the actual properties on the object by calling the **.data()** method, which returns us a JSON object of the document.
+
+## Notes on Redux
+
+### Why Use?
+
+Good for managing large state
+
+Useful for sharing data between components
+
+Predictable state management using the 3 principles
+
+### 3 Principles
+
+1. Single source of truth
+2. State is read only
+3. Changes using only pure functions
+   - Receives an input, and always returns an output that is predictable
+
+### Redux Flow
+
+Action -> Root Reducer -> Store -> DOM Changes
+
+One way data flow!
+
+![Redux Flow](/redux-flow.png "Redux Flow")
