@@ -7,7 +7,9 @@ Fully functional E-commerce clothing site built using React, Redux, Stripe and c
 - node-sass
 - react-router-dom - v5.2.0
 - firebase
--
+- redux
+- redux-logger
+- react-redux
 
 ## Setup
 
