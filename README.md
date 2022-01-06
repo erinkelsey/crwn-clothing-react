@@ -58,6 +58,13 @@ NOTE: the variable MUST be named FIREBASE_CONFIG, as that is what the setup in s
 
 ##### Email and Password
 
+1. Under the Develop header on the Sidebar, click on Authentication
+2. Go to the Sign-in method tab
+3. Click on Add new provider
+4. Click on Email/Password under Native Providers
+5. Click enable beside Email/Password option
+6. Click on Save
+
 #### DATABASE
 
 1. Under the Develop header on the Sidebase, click on Firestore Database
@@ -125,5 +132,3 @@ collectionRef returns a **querySnapshot** object
 Object that can be used to check if a document exists at this query using the **.exist** property, which returns a boolean.
 
 Can also be used to get the actual properties on the object by calling the **.data()** method, which returns us a JSON object of the document.
-
-### QuerySnapshot

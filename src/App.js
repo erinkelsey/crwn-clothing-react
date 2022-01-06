@@ -31,20 +31,13 @@ class App extends React.Component {
         // changes in the data, ALSO
         // get back first state of the data
         userRef.onSnapshot(snapshot => {
-          this.setState(
-            {
-              currentUser: {
-                id: snapshot.id,
-                ...snapshot.data()
-              }
-            },
-            () => {
-              console.log(this.state);
+          this.setState({
+            currentUser: {
+              id: snapshot.id,
+              ...snapshot.data()
             }
-          );
+          });
         });
-
-        console.log(this.state);
       } else {
         // set currentUser to null
         this.setState({ currentUser: userAuth });
