@@ -10,6 +10,7 @@ Fully functional E-commerce clothing site built using React, Redux, Stripe and c
 - redux
 - redux-logger
 - react-redux
+- reselect
 
 ## Setup
 
@@ -159,4 +160,4 @@ Action -> Root Reducer -> Store -> DOM Changes
 
 One way data flow!
 
-![Redux Flow](/redux-flow.png "Redux Flow")
+![Redux Flow](/redux-flow.png 'Redux Flow')
