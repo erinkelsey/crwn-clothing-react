@@ -11,6 +11,7 @@ Fully functional E-commerce clothing site built using React, Redux, Stripe and c
 - redux-logger
 - react-redux
 - reselect
+- redux-persist
 
 ## Setup
 
