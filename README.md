@@ -105,20 +105,20 @@ NOTE: the variable MUST be named FIREBASE_CONFIG, as that is what the setup in s
 
 1.  Install GitHub Pages in App:
 
-    $ npm add gh-pages
+        $ npm add gh-pages
 
 2.  Add the following to scripts section of package.json:
 
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build"
 
 3.  Change the homepage in package.json to the current GitHub URL for you project. Example:
 
-    "homepage": "https://erinkelsey.github.io/crw-clothing-react/"
+        "homepage": "https://erinkelsey.github.io/crw-clothing-react/"
 
 4.  Run script:
 
-    $ npm run deploy
+        $ npm run deploy
 
 5.  Push to GitHub
 
