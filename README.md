@@ -12,12 +12,21 @@ Fully functional E-commerce clothing site built using React, Redux, Stripe and c
 - react-redux
 - reselect
 - redux-persist
+- react-stripe-checkout
 
 ## Setup
 
 ### Node
 
     $ npm install
+
+### Environment Variables
+
+Create a .env file in the main project folder with the following variables:
+
+    REACT_APP_STRIPE_PUBLISHABLE_KEY=your-stripe-key
+
+NOTE: Stripe key is accessed in file: src/components/stripe-button/stripe-button.component.jsx. ALSO, Stripe key MUST be your Test Key.
 
 ### Firebase
 
