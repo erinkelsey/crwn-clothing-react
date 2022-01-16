@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/crw-clothing-react/static/css/main.4b3eef5d.css",
+    "main.js": "/crw-clothing-react/static/js/main.faf22b9a.js",
+    "service-worker.js": "/crw-clothing-react/service-worker.js",
+    "static/media/shopping-bag.svg": "/crw-clothing-react/static/media/shopping-bag.a688874f6f1507316bdfa420328a4a53.svg",
+    "static/media/crown.svg": "/crw-clothing-react/static/media/crown.3a4e2b15908e7a4c25343677d232b7e6.svg",
+    "index.html": "/crw-clothing-react/index.html",
+    "main.4b3eef5d.css.map": "/crw-clothing-react/static/css/main.4b3eef5d.css.map",
+    "main.faf22b9a.js.map": "/crw-clothing-react/static/js/main.faf22b9a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b3eef5d.css",
+    "static/js/main.faf22b9a.js"
+  ]
+}
