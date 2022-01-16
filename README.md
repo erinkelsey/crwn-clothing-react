@@ -2,6 +2,8 @@
 
 Fully functional E-commerce clothing site built using React, Redux, Stripe and common React packages
 
+Hosted Location:
+
 ### React Packages
 
 - node-sass
@@ -99,7 +101,26 @@ NOTE: the variable MUST be named FIREBASE_CONFIG, as that is what the setup in s
 
     $ npm run build
 
-## Deploy
+## Deploy to GitHub Pages
+
+1.  Install GitHub Pages in App:
+
+    $ npm add gh-pages
+
+2.  Add the following to scripts section of package.json:
+
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+
+3.  Change the homepage in package.json to the current GitHub URL for you project. Example:
+
+    "homepage": "https://erinkelsey.github.io/crw-clothing-react/"
+
+4.  Run script:
+
+    $ npm run deploy
+
+5.  Push to GitHub
 
 ## Notes on Firestore
 
