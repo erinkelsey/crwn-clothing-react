@@ -2,7 +2,7 @@
 
 Fully functional E-commerce clothing site built using React, Redux, Stripe and common React packages
 
-Hosted Location: https://erinkelsey.github.io/crw-clothing-react/
+Hosted Location: https://erinkelsey.github.io/crwn-clothing-react/
 
 ### React Packages
 
