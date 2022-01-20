@@ -2,7 +2,7 @@
 
 Fully functional E-commerce clothing site built using React, Redux, Stripe and common React packages
 
-Hosted Location: https://erinkelsey.github.io/crwn-clothing-react/
+Hosted Location: http://crwn-clothing.s3-website.ca-central-1.amazonaws.com
 
 ### React Packages
 
@@ -101,7 +101,9 @@ NOTE: the variable MUST be named FIREBASE_CONFIG, as that is what the setup in s
 
     $ npm run build
 
-## Deploy to GitHub Pages
+## Deploy
+
+### GitHub Pages
 
 1.  Install GitHub Pages in App:
 
@@ -121,6 +123,22 @@ NOTE: the variable MUST be named FIREBASE_CONFIG, as that is what the setup in s
         $ npm run deploy
 
 5.  Push to GitHub
+
+## AWS S3
+
+1.  Create a new bucket on S3
+
+2.  Enable public access to bucket in Permissions
+
+3.  Enable static web hosting in Properties
+
+4.  Run project build
+
+        $ npm run build
+
+5.  Upload code to S3 bucket
+
+        $ aws s3 sync build/web/ s3://[name-of-bucket] --acl public-read
 
 ## Notes on Firestore
 
